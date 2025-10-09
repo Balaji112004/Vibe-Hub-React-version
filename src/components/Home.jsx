@@ -34,6 +34,16 @@ import chil from "../assets/lb/Chillanjirukkiye.mp3";
 import Aasa from "../assets/lb/Aasa Orave.mp3";
 import Theme from "../assets/lb/Lubber Pandhu Theme.mp3";
 
+
+import oorumBlood from "../assets/dude/Oorum_Blood.mp3";
+import po from "../assets/dude/Nallaru_Po.mp3";
+import singari from "../assets/dude/Singari.mp3";
+
+import salambala from "../assets/madharasi/Salambala.mp3";
+import thangapoovey from "../assets/madharasi/Thangapoovey.mp3";
+import instinct from "../assets/madharasi/Animal_Instinct.mp3";
+
+
 function Home() {
   const [home,sethome]=useState(true);
   const [selectedmovies, setselectedmovies] = useState({});
@@ -50,6 +60,30 @@ function Home() {
     sethome(!home);
   }
   const tamil_movies = [
+  {
+      title: "Dude",
+      year: 2025,
+      music: "Sai Abhyankkar",
+      poster:
+        "https://lh3.googleusercontent.com/Wnv_7EuybyKQpAiIoCoM3f_UpUMDblc_LDWDPeZiBGLzuHNcRgflL8UJ3Y8VV5ir7EkLXGeOuPPJ3swN=w544-h544-l90-rj",
+      songs: [
+        { title: "Oorum Blood",src:oorumBlood ,poster:"https://lh3.googleusercontent.com/neWzCg5FpfvHVBIMVIxpSLjPYe_Eoj8-NYiLkT5tmO4ENVKcJGQrftRIVbBujqsP8p8ENqZZnuQabNv8=w544-h544-l90-rj" },
+        { title: "Nallaru Po",src:po,poster:"https://lh3.googleusercontent.com/wT9OeYXVuf7P5mzjgOtZdAu9-872PnURnveIB6AiRoroHzlAFz2_6pMxk3XKgGuRWwCtJpn5Hkx0Ag=w544-h544-l90-rj" },
+        { title: "Singari" ,src:singari,poster:"https://lh3.googleusercontent.com/29o3mo_-5Jn1XP_4cqH4Gmy2OqjBIB3BA2ttjzH7XDqQYjO4F_48nC-IwpN0JKy4bH4csI2y6Dj1Qus=w544-h544-l90-rj"},
+      ],
+    },
+    {
+      title: "Madharasi",
+      year: 2025,
+      music: "Anirudh Ravichander",
+      poster:
+        "https://lh3.googleusercontent.com/BeDWdFxMOluZO6PE1NzhZ2BUCoVjeu4lJRLeBoTei_rBYIN9Qkwua8uqQdVmyT_nkGFvNFZcK-d6huo=w544-h544-l90-rj",
+      songs: [
+        { title: "Salambala",src:salambala ,poster:"https://lh3.googleusercontent.com/Lzgd7Kn6caC02A-JooYp8bl5_ynpk-2AeGut31T5lCq1GXNLeOPYnJLtPIjwKnAl2_GEsREWjH-pUQai=w544-h544-l90-rj" },
+        { title: "Thangapoovey",src:thangapoovey,poster:"https://i.scdn.co/image/ab67616d0000b27351e435b5b8b09a8f231d2aef" },
+        { title: "Animal Instinct" ,src:instinct,poster:"https://lh3.googleusercontent.com/BeDWdFxMOluZO6PE1NzhZ2BUCoVjeu4lJRLeBoTei_rBYIN9Qkwua8uqQdVmyT_nkGFvNFZcK-d6huo=w544-h544-l90-rj"},
+      ],
+    },
     {
       title: "Coolie",
       year: 2025,
