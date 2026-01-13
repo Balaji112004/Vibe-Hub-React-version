@@ -15,11 +15,11 @@ function Nav() {
           <img src={lo} className='h-16 mt-2 ml-2'/>
 
           <div className='flex'>
-            <Link 
+            {/* <Link 
               to="/" 
               className='m-3 p-3 text-lg font-semibold hover:bg-gray-800 rounded-lg cursor-pointer text-white'>
               Movie
-            </Link>
+            </Link> */}
 
             {/* <Link
               to="/songs"
