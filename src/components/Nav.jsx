@@ -21,17 +21,17 @@ function Nav() {
               Movie
             </Link>
 
-            <Link
+            {/* <Link
               to="/songs"
               className='m-3 p-3 text-lg font-semibold hover:bg-gray-800 rounded-lg cursor-pointer text-white'>
               All Song
-            </Link>
+            </Link> */}
 
-            <Link
+            {/* <Link
               to="/liked"
               className='m-3 p-3 text-lg font-semibold hover:bg-gray-800 rounded-lg cursor-pointer text-white'>
               Liked
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -54,17 +54,17 @@ function Nav() {
     </>
   ) : (
     <>
-      <Link to="/login">
+      {/* <Link to="/login">
         <button className="m-3 px-6 py-3 bg-white text-gray-700 font-bold border border-gray-300 rounded-xl">
           Login
         </button>
-      </Link>
+      </Link> */}
 
-      <Link to="/signup">
+      {/* <Link to="/signup">
         <button className="m-3 px-6 py-3 bg-white text-gray-700 font-bold border border-gray-300 rounded-xl">
           Sign Up
         </button>
-      </Link>
+      </Link> */}
     </>
   )}
 
