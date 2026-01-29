@@ -203,7 +203,7 @@ if (home) {
         {/* Tamil Songs Section */}
         <div className="text-white">
           <div className="font-bold text-4xl m-3 p-5 pt-10 pb-10 pop">Tamil Hit Songs</div>
-          <div className="flex flex-wrap ml-1">
+          <div className="flex flex-wrap ml-10 gap-4">
             {tamil_movies.map((tamil_movie, index) => (
               <div key={index}>
                 <img
